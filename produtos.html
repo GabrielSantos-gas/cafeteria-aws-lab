@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cardápio — Cafeteria da Nuvem</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☁️</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="index.html">Cafeteria da <span>Nuvem</span></a>
+  <nav>
+    <a href="index.html">Início</a>
+  </nav>
+</header>
+
+<header class="menu-banner">
+  <p class="kicker">Cardápio</p>
+  <h1>Escolha o que vem hoje</h1>
+  <p>Ajuste a quantidade de cada item e adicione à lista. Você confere tudo antes de confirmar.</p>
+</header>
+
+<main class="menu-wrap">
+  <div class="menu-grid" id="menu-list"><!-- itens inseridos via script.js --></div>
+</main>
+
+<div class="cart-bar" id="cart-bar">
+  <div class="cart-info">
+    <span id="cart-count">0 itens</span>
+    <strong id="cart-total">R$ 0,00</strong>
+  </div>
+  <button class="btn btn-primary" id="btn-finalizar">Finalizar pedido</button>
+</div>
+
+<!-- popup de confirmação do pedido -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <h2 id="modal-title">Seu pedido</h2>
+    <p class="modal-sub">Confira os itens antes de confirmar. Clique em "Remover" para tirar algo da lista.</p>
+
+    <div class="modal-list" id="modal-list"><!-- itens do pedido --></div>
+
+    <div class="modal-total">
+      <span>Total</span>
+      <span id="modal-total-value">R$ 0,00</span>
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn btn-ghost" id="btn-acrescentar">Acrescentar mais itens</button>
+      <button class="btn btn-primary" id="btn-confirmar">Confirmar pedido</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
