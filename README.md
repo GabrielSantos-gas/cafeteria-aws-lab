@@ -21,6 +21,8 @@ confirmação de produtos, com os preços unitarios de cada item e o preço tota
 
 ![Cardápio da Cafeteria da Nuvem](screenshots/pop_up.png)
 
+
 📋 Confirmação 
 Pagina de confirmação, onde mostra todos os itens que foram adiciado a lista, com o Numero do seu pedido com valor unitario e total. 
+
 ![Cardápio da Cafeteria da Nuvem](screenshots/pedido_confirmado.png)
