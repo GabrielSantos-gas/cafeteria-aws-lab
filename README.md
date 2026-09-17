@@ -13,13 +13,12 @@ Página inicial com apresentação da cafeteria e acesso ao cardápio.
 
 
 📋 Cardápio
-
 Página de cardápio com produtos, preços, descrição dos itens, controle de quantidade e opção de adicionar produtos ao pedido. 
 ![Cardápio da Cafeteria da Nuvem](screenshots/cardapio.png)
 
 📋 Poup-up
-
 confirmação de produtos, com os preços unitarios de cada item e o preço total de todos os itens. tambem é possivel remover algum item que voce queira.
+
 ![Cardápio da Cafeteria da Nuvem](screenshots/pop_up.png)
 
 📋 Confirmação 
