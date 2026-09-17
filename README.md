@@ -8,8 +8,8 @@ A proposta é criar uma experiência simples e agradável para o cliente conhece
 
 🏠 Home
 
-Página inicial com apresentação da cafeteria e acesso ao cardápio.!
-[Cardápio da Cafeteria da Nuvem](screenshots/home.png)
+Página inicial com apresentação da cafeteria e acesso ao cardápio.
+![Cardápio da Cafeteria da Nuvem](screenshots/home.png)
 
 
 📋 Cardápio
